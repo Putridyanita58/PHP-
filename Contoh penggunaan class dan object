@@ -1,0 +1,6 @@
+<?php 
+Class buku{
+} 
+$buku_putri = new buku();
+$buku_caca = new buku();
+?>
