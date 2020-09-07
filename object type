@@ -1,0 +1,15 @@
+<?php
+class Hai{
+        var $str;
+        public function tampung ($temp);
+        return $this->str = $temp;
+        }
+
+        public function cetak(){
+        echo $this->str;
+        }
+}
+$pesan = new Hai();
+$pesan->tampung("Hello World!");
+$pesan->cetak();
+?>
